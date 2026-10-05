@@ -1,0 +1,19 @@
+{
+  "name": "chitchat-io",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "dev:web": "pnpm --filter web dev",
+    "dev:api": "pnpm --filter api start:dev",
+    "build": "pnpm --recursive run build",
+    "lint": "pnpm --recursive run lint",
+    "test": "pnpm --recursive run test"
+  },
+  "keywords": [],
+  "author": "",
+  "packageManager": "pnpm@12.5.1",
+  "license": "ISC",
+  "type": "module"
+}
